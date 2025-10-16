@@ -19,6 +19,78 @@ const products = [
     price: '$199.99',
     image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80',
   },
+  {
+    id: 4,
+    name: 'Wireless Headphones',
+    price: '$89.99',
+    image: 'https://images.unsplash.com/photo-1512499617640-c2f999c6e9f5?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    id: 5,
+    name: 'Denim Jeans',
+    price: '$49.99',
+    image: 'https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    id: 6,
+    name: 'Backpack',
+    price: '$39.99',
+    image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    id: 7,
+    name: 'Sunglasses',
+    price: '$29.99',
+    image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    id: 8,
+    name: 'Formal Shirt',
+    price: '$34.99',
+    image: 'https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    id: 9,
+    name: 'Running Shoes',
+    price: '$74.99',
+    image: 'https://images.unsplash.com/photo-1528701800489-20c0fda3b228?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    id: 10,
+    name: 'Bluetooth Speaker',
+    price: '$59.99',
+    image: 'https://images.unsplash.com/photo-1512499617640-c2f999c6e9f5?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    id: 11,
+    name: 'Casual T-Shirt',
+    price: '$19.99',
+    image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    id: 12,
+    name: 'Leather Belt',
+    price: '$24.99',
+    image: 'https://images.unsplash.com/photo-1503342452485-86b7aa4c58b0?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    id: 13,
+    name: 'Digital Camera',
+    price: '$299.99',
+    image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    id: 14,
+    name: 'Winter Coat',
+    price: '$149.99',
+    image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    id: 15,
+    name: 'Sports Watch',
+    price: '$179.99',
+    image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80',
+  },
 ];
 
 const ProductList = () => {
