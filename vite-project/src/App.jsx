@@ -1,20 +1,29 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import ProductList from './components/ProductList';
-import Footer from './components/Footer';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Sports from "./pages/Sports";
+import HomeAppliances from "./pages/HomeAppliances";
+import Cart from "./pages/Cart";
+import Login from "./pages/Login";
 
-function App() {
+const App = () => {
   return (
-    <div>
+    <Router>
+      {/* Navbar visible everywhere */}
       <Navbar />
-      <Hero />
-      <ProductList />
-      <Footer />
-    </div>
+
+      <div className="pt-24 bg-gray-50 min-h-screen">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/sports" element={<Sports />} />
+          <Route path="/home-appliances" element={<HomeAppliances />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
-
-//for commit
